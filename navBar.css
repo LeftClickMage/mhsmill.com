@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    .navButtons {
+        color:#f4b295;
+        border:none;
+        border-radius:1.5vh;
+        background-color:#1079d9;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+        text-shadow:-.15vh .15vh 0 #2044e0, .15vh .15vh 0 #2044e0, .15vh -.15vh 0 #2044e0,-.15vh -.15vh 0 #2044e0;
+    }
+    .navButtons:hover{
+        cursor:pointer;
+    } 
+    
+    #csiiLogo:hover{
+        cursor:pointer;
+    }
