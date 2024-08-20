@@ -4,11 +4,12 @@
     .navButtons {
         color:#f4b295;
         border:none;
-        border-radius:1.5vh;
+        border-radius:5px;
         background-color:#1079d9;
         font-family: 'Roboto', sans-serif;
+        font-size:15px;
         font-weight:bold;
-        text-shadow:-.15vh .15vh 0 #2044e0, .15vh .15vh 0 #2044e0, .15vh -.15vh 0 #2044e0,-.15vh -.15vh 0 #2044e0;
+        text-shadow:-1.5px 1.5px 0 #2044e0, 1.5px 1.5px 0 #2044e0, 1.5px -1.5px 0 #2044e0,-1.5px -1.5px 0 #2044e0;
     }
     .navButtons:hover{
         cursor:pointer;

@@ -1,15 +1,15 @@
 document.write(`
-<nav id = "navBar" class="navbar navbar-expand-sm bg-dark navbar-dark position-absolute w-100 overflow-hidden text-wrap" style="">
+<nav id = "navBar" class="navbar navbar-expand-sm bg-dark navbar-dark position-absolute w-100 overflow-hidden text-wrap" style=" top:0; left:0; position:absolute;">
     <div class="container-fluid">
-        <img src="https://i.ibb.co/8XqMv7p/csii-logo.png" id="csiiLogo" onclick="window.open('home', '_self')" style="width:300px;">
-        <button class="navButtons navbar-text px-3" id = "asd7122345234tafgtw46456222222222" onclick="window.open('artificialintelligence', '_self')" style="color:#f4b295;">Artificial Intelligence</button>
-            <button class="navButtons navbar-text px-3" id = "asd7gasdfadfgsdf23423466dsbKAHe82" onclick="window.open('innovativedevelopment', '_self')" style="color:#f4b295;">Innovative Development</button>
-            <button class="navButtons navbar-text px-3" id = "jashdkfhas968723ASFHASEFKJ123He82" onclick="window.open('competitivecoding', '_self')" style="color:#f4b295;">Competitive Coding</button>
-            <button class="navButtons navbar-text px-3" id = "asd712fasAfrgtras921351jdsbKAHe82" onclick="window.open('datascience', '_self')" style="color:#f4b295;">Data Science</button>
-            <button class="navButtons navbar-text px-3 me-3" id = "asd712fasAfrgasdfgasd23453456FFF2" onclick="window.open('websitedevelopment', '_self')" style="color:#f4b295;">Website Development</button>
+        <img src="/csiiLogo.png" id="csiiLogo" onclick="window.open('index.html', '_self')" style="height:60px;">
+        <button class="navButtons navbar-text px-3" id = "asd7122345234tafgtw46456222222222" onclick="window.open('artificialintelligence.html', '_self')" style="color:#f4b295;">Artificial Intelligence</button>
+            <button class="navButtons navbar-text px-3" id = "asd7gasdfadfgsdf23423466dsbKAHe82" onclick="window.open('innovativedevelopment.html', '_self')" style="color:#f4b295;">Innovative Development</button>
+            <button class="navButtons navbar-text px-3" id = "jashdkfhas968723ASFHASEFKJ123He82" onclick="window.open('competitivecoding.html', '_self')" style="color:#f4b295;">Competitive Coding</button>
+            <button class="navButtons navbar-text px-3" id = "asd712fasAfrgtras921351jdsbKAHe82" onclick="window.open('datascience.html', '_self')" style="color:#f4b295;">Data Science</button>
+            <button class="navButtons navbar-text px-3 me-3" id = "asd712fasAfrgasdfgasd23453456FFF2" onclick="window.open('websitedevelopment.html', '_self')" style="color:#f4b295;">Website Development</button>
     </div>
 </nav>
-<div id = "mobilePhone">
+<div id = "mobilePhone" style="">
 
 <div id = "mobileNav" onclick="openNav()">
 <div id = "mobileImg">
@@ -24,17 +24,17 @@ document.write(`
 
 <div id ="navContainer"  style="margin-left:-50vh;">
 
-    <img src="https://i.ibb.co/8XqMv7p/csii-logo.png" id="csiiLogo" onclick="window.open('home', '_self')">
+    <img src="https://i.ibb.co/8XqMv7p/csii-logo.png" id="csiiLogo" onclick="window.open('index.html', '_self')">
     <br>
-    <button class="navButtons" id = "asd7122345234tafgtw46456222222222" onclick="window.open('artificialintelligence', '_self')">Artificial Intelligence</button>
+    <button class="navButtons" id = "asd7122345234tafgtw46456222222222" onclick="window.open('artificialintelligence.html', '_self')">Artificial Intelligence</button>
     <br>
-    <button class="navButtons" id = "asd7gasdfadfgsdf23423466dsbKAHe82" onclick="window.open('innovativedevelopment', '_self')">Innovative Development</button>
+    <button class="navButtons" id = "asd7gasdfadfgsdf23423466dsbKAHe82" onclick="window.open('innovativedevelopment.html', '_self')">Innovative Development</button>
     <br>
-    <button class="navButtons" id = "jashdkfhas968723ASFHASEFKJ123He82" onclick="window.open('competitivecoding', '_self')">Competitive Coding</button>
+    <button class="navButtons" id = "jashdkfhas968723ASFHASEFKJ123He82" onclick="window.open('competitivecoding.html', '_self')">Competitive Coding</button>
     <br>
-    <button class="navButtons" id = "asd712fasAfrgtras921351jdsbKAHe82" onclick="window.open('datascience', '_self')">Data Science</button>
+    <button class="navButtons" id = "asd712fasAfrgtras921351jdsbKAHe82" onclick="window.open('datascience.html', '_self')">Data Science</button>
     <br>
-    <button class="navButtons" id = "asd712fasAfrgasdfgasd23453456FFF2" onclick="window.open('websitedevelopment', '_self')">Website Development</button>
+    <button class="navButtons" id = "asd712fasAfrgasdfgasd23453456FFF2" onclick="window.open('websitedevelopment.html', '_self')">Website Development</button>
 </div>
 </div>
 `);
@@ -64,7 +64,7 @@ if(window.innerHeight/window.innerWidth>.8){
     body.insertBefore(mobilePhone, body.firstChild);
   }
 window.addEventListener("resize", function(event) {
-  if(window.innerHeight/window.innerWidth>.8){
+  if(window.innerWidth < 1000){
     document.styleSheets[0].disabled = true;
     document.styleSheets[1].disabled = false;
     document.body.removeChild(compNav);
