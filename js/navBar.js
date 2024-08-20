@@ -64,6 +64,7 @@ if(window.innerHeight/window.innerWidth>.8){
     body.insertBefore(mobilePhone, body.firstChild);
   }
 window.addEventListener("resize", function(event) {
+
   if(window.innerWidth < 1000){
     document.styleSheets[0].disabled = true;
     document.styleSheets[1].disabled = false;
@@ -77,6 +78,20 @@ window.addEventListener("resize", function(event) {
 
   }
 })
+
+
+  if(window.innerWidth < 1000){
+    document.styleSheets[0].disabled = true;
+    document.styleSheets[1].disabled = false;
+    document.body.removeChild(compNav);
+    body.insertBefore(mobilePhone, body.firstChild);
+  } else {
+    document.styleSheets[0].disabled = false;
+    document.styleSheets[1].disabled = true;
+    body.insertBefore(compNav, body.firstChild);
+    document.body.removeChild(mobilePhone);
+
+  }
 
 function openNav(){
     var navContainer = document.getElementById('navContainer');
