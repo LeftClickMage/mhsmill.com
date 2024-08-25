@@ -11,7 +11,7 @@ document.write(`
 </nav>
 <div id = "mobilePhone" style="">
 
-<div id = "mobileNav" onclick="openNav()">
+<div id = "mobileNav" onclick="openNav()" style="position:absolute;top:0;left:0;">
 <div id = "mobileImg">
     <img src="https://i.ibb.co/K5Vt3NG/Screenshot-2022-11-10-5-15-19-PM-removebg-preview.png" id="ham1" class="ham">
     <img src="https://i.ibb.co/K5Vt3NG/Screenshot-2022-11-10-5-15-19-PM-removebg-preview.png" id="ham2" class="ham">
@@ -56,13 +56,9 @@ var mobilePhone = document.getElementById('mobilePhone');
 var body = document.getElementsByTagName("body")[0];
 var openedNav = false;
 document.body.removeChild(mobilePhone);
-document.styleSheets[1].disabled = true;
-if(window.innerHeight/window.innerWidth>.8){
-    document.styleSheets[0].disabled = true;
-    document.styleSheets[1].disabled = false;
-    document.body.removeChild(compNav);
-    body.insertBefore(mobilePhone, body.firstChild);
-  }
+
+
+  
 window.addEventListener("resize", function(event) {
 
   if(window.innerWidth < 1000){
@@ -101,7 +97,7 @@ function openNav(){
     var ham4 = document.getElementById('ham4');
     var navPopup = document.getElementById('navPopup');
     var mobileNav = document.getElementById('mobileNav');
-    mobileNav.setAttribute("style", "");
+    mobileNav.setAttribute("style", "position:absolute;top:0;left:0;");
     navContainer.setAttribute("style","");
     navPopup.setAttribute("style","");
     if (openedNav){
