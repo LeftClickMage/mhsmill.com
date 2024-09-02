@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+    
+
+    
+    #csiiLogo:hover{
+        cursor:pointer;
+    }
+
+.navbarTextColor{
+    color:#f4b295;
+}
+
+.navbar{
+    background-color:black;
+    border-bottom:solid white 5px;
+
+ }

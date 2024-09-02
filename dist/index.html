@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>MHSMILL - Computer Science Integration Intiative</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="icon" href="assets/csiiIcon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="CSII is a club in Millburn High School that teaches many topics surrounding computers. These topics can span from AI to all the way to Data Science, and even a way to create websites like this one!">
+            <meta name="keywords" content="CSII, CSII MHS, CSII Millburn High School Club, Millburn High School Clubs, Data Science, Website and Game Development, Artificial Intelligence, AI, Competitive Coding, Innovative Development">
+            <link rel="canonical" href="https://csii.mhsmill.com/">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+            body{
+                background-color:#000007;
+            }
+            *{
+                font-family: Roboto;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="background" style="z-index:-1000; position:fixed; top:0; left:0;"></div>
+        <div id="root" style="z-index:1000;"></div>
+
+        <script src="/dist/bundle.js"></script>
+        <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three/examples/jsm/"
+    }
+  }
+</script>
+
+        <script src="background.js" type="module"></script>
+        <script>
+        window.onerror = function(message, source, lineno, colno, error) {
+    alert("Error occurred: " + message + "\nAt: " + source + ":" + lineno + ":" + colno);
+};
+</script>
+    </body>
+</html>

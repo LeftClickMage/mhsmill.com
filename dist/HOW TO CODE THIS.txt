@@ -1,0 +1,9 @@
+For future people:
+
+    run: npm run start 
+    this starts the build server at localhost:3000
+
+When you are happy with the product, 
+
+    run: npx webpack build
+    this creates a bundle.js file that has all React code in it. This will allow you to push to github!.

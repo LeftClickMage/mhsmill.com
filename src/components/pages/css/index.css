@@ -1,0 +1,12 @@
+.titleText{
+    color:whitesmoke;
+    text-shadow: 4px 4px black, -4px 4px 0 black, 4px -4px 0 black, -4px -4px 0 black, 0 0 50px whitesmoke, 0 0 40px whitesmoke, 0 0 30px whitesmoke;
+}
+
+.backgroundGlow{
+    transition:0.25s;
+  }
+
+    .backgroundGlow:hover{
+      box-shadow: 0 0 50px #FFFFFF;
+  }
