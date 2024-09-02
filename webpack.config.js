@@ -28,16 +28,16 @@ module.exports = {
     extensions: ["*", ".js", ".jsx"],
   },
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "./"),
     filename: "bundle.js",
     // Default hash function uses WebAssembly, which is unsupported on iOS node
     hashFunction: md5,
   },
   target: "web",
   devServer: {
-    contentBase: ["./dist"],
+    contentBase: ["./"],
     historyApiFallback: true,
-    publicPath: "/dist",
+    publicPath: "/",
     watchOptions: {
       // Use poll for watch because the default implementation open too many file descriptors
       poll: 1000,
