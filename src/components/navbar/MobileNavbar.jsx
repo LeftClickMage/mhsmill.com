@@ -73,15 +73,15 @@ function MobileNavbar() {
                     </Link>
                     <br/>
 
-                    <NavbarButton className="navButtons mobileNavbarButton" id = "aiNavButton" page = "Artifical Intelligence" to="/artificialintelligence"/>
+                    <NavbarButton className="navButtons mobileNavbarButton" id = "aiNavButton" page = "Artifical Intelligence" to="/ai"/>
                     <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "idNavButton" page = "Innovative Development" to="/innovativedevelopment"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "idNavButton" page = "Innovative Development" to="/id"/>
                 <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "ccNavButton" page = "Competitive Coding" to="/competitivecoding"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "ccNavButton" page = "Competitive Coding" to="/cc"/>
                 <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "dsNavButton" page = "Data Science" to="/datascience"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "dsNavButton" page = "Data Science" to="/ds"/>
                 <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "wgNavButton" page = "Web && Game Dev" to="/webandgamedev"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "wgNavButton" page = "Web && Game Dev" to="/wgd"/>
                 </div>
             </div>
         </>

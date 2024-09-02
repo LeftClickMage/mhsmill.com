@@ -11,11 +11,11 @@ function PCNavbar() {
                 <Link to="/">
                     <img src="assets/csiiLogo.png" id="csiiLogo" style={{height: "60px"}} />
                 </Link>
-                <NavbarButton className="navButtons navbar-text px-3" id = "aiNavButton" page = "Artifical Intelligence" to="/artificialintelligence"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "idNavButton" page = "Innovative Development" to="/innovativedevelopment"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "ccNavButton" page = "Competitive Coding" to="/competitivecoding"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "dsNavButton" page = "Data Science" to="/datascience"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "wgNavButton" page = "Web && Game Dev" to="/webandgamedev"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "aiNavButton" page = "Artifical Intelligence" to="/ai"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "idNavButton" page = "Innovative Development" to="/id"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "ccNavButton" page = "Competitive Coding" to="/cc"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "dsNavButton" page = "Data Science" to="/ds"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "wgNavButton" page = "Web && Game Dev" to="/wgd"/>
             </div>
         </nav>
     );

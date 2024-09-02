@@ -12,11 +12,11 @@ function App() {
                 <Navbar />
                 <Routes> 
                     <Route index element = {<Index />} />
-                    <Route path="/webandgamedev" element = {<WebAndGameDev />} />
-                    <Route path="/competitivecoding" element = {<CompetitiveCoding />} />
-                    <Route path="/artificialintelligence" element = {<ArtificialIntelligence />} />
-                    <Route path="/innovativedevelopment" element = {<InnovativeDevelopment />} />
-                    <Route path="/datascience" element = {<DataScience />} />
+                    <Route path="/wgd" element = {<WebAndGameDev />} />
+                    <Route path="/cc" element = {<CompetitiveCoding />} />
+                    <Route path="/ai" element = {<ArtificialIntelligence />} />
+                    <Route path="/id" element = {<InnovativeDevelopment />} />
+                    <Route path="/ds" element = {<DataScience />} />
                 </Routes>
             </BrowserRouter> 
         </>
