@@ -1,7 +1,7 @@
 For future people:
 
     run: npm run start 
-    this starts the build server at localhost:3000
+    this starts the server at localhost:3000
 
 When you are happy with the product, 
 
