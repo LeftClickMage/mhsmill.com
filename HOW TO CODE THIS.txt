@@ -6,4 +6,4 @@ For future people:
 When you are happy with the product, 
 
     run: npx webpack build
-    this creates a bundle.js file that has all React code in it. This will allow you to push to github!.
+    this creates a bundle.js file that has all React code in it. This will allow you to push to github!
