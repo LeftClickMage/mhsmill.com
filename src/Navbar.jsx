@@ -1,14 +1,13 @@
-import { hot } from "react-hot-loader/root";
 import React, { useState, useEffect } from "react";
 import MobileNavbar from "./components/navbar/MobileNavbar.jsx";
 import PCNavbar from "./components/navbar/PCNavbar.jsx";
 
-function Navbar() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 1000);
+export default function Navbar() {
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
 
     useEffect(() => {
         let navbarChanging = () =>{
-            setIsMobile(window.innerWidth < 1000);
+            setIsMobile(window.innerWidth < 900);
         }
         window.addEventListener("resize", navbarChanging);
         return () => {
@@ -30,4 +29,3 @@ function Navbar() {
     );
 }
 
-export default hot(Navbar); 

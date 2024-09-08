@@ -1,6 +1,6 @@
 import React from "react";
 
-function Index() {
+export default function Index() {
     return (
         <>
             <div className="container-fluid text-center" style={{"bottom": "5vh", "position": "fixed"}}>
@@ -10,6 +10,4 @@ function Index() {
         </>
     );
 }
- 
-export default Index;
- 
+  

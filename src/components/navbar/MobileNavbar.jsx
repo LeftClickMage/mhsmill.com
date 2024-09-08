@@ -52,7 +52,7 @@ function MobileNavbar() {
     return (
         <>
         
-            <div id = "mobilePhone">
+            <div id = "mobilePhone" style={{position: "fixed", "margin-top": "-130px"}}>
    
                 <div id = "mobileNav" style={{top: 0, left: 0, position: "absolute"}} onClick={openMobileNav}>
 
@@ -75,11 +75,11 @@ function MobileNavbar() {
 
                     <NavbarButton className="navButtons mobileNavbarButton" id = "aiNavButton" page = "Artifical Intelligence" to="/ai"/>
                     <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "idNavButton" page = "Innovative Development" to="/id"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "vcNavButton" page = "Version Control" to="/vc"/>
                 <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "ccNavButton" page = "Competitive Coding" to="/cc"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "3dpNavButton" page = "3D Printing" to="/3dp"/>
                 <br />
-                <NavbarButton className="navButtons mobileNavbarButton" id = "dsNavButton" page = "Data Science" to="/ds"/>
+                <NavbarButton className="navButtons mobileNavbarButton" id = "aieNavButton" page = "AI Ethics" to="/aie"/>
                 <br />
                 <NavbarButton className="navButtons mobileNavbarButton" id = "wgNavButton" page = "Web && Game Dev" to="/wgd"/>
                 </div>

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar.jsx";
 import "./components/pages/css/index.css";
-import { Index, WebAndGameDev, DataScience, InnovativeDevelopment, CompetitiveCoding, ArtificialIntelligence } from './components/pages/';
+import { Index, WebAndGameDev, ThreeDPrinting, ArtificialIntelligenceEthics, VersionControl, ArtificialIntelligence } from './components/pages/';
 
-function App() {
+export default function App() {
 
     return(
         <>
@@ -13,14 +13,13 @@ function App() {
                 <Routes> 
                     <Route index element = {<Index />} />
                     <Route path="/wgd" element = {<WebAndGameDev />} />
-                    <Route path="/cc" element = {<CompetitiveCoding />} />
+                    <Route path="/aie" element = {<ArtificialIntelligenceEthics />} />
                     <Route path="/ai" element = {<ArtificialIntelligence />} />
-                    <Route path="/id" element = {<InnovativeDevelopment />} />
-                    <Route path="/ds" element = {<DataScience />} />
+                    <Route path="/vc" element = {<VersionControl />} />
+                    <Route path="/3dp" element = {<ThreeDPrinting />} />
                 </Routes>
             </BrowserRouter> 
         </>
     );
 }
 
-export default App; 

@@ -12,10 +12,10 @@ function PCNavbar() {
                     <img src="assets/csiiLogo.png" id="csiiLogo" style={{height: "60px"}} />
                 </Link>
                 <NavbarButton className="navButtons navbar-text px-3" id = "aiNavButton" page = "Artifical Intelligence" to="/ai"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "idNavButton" page = "Innovative Development" to="/id"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "ccNavButton" page = "Competitive Coding" to="/cc"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "dsNavButton" page = "Data Science" to="/ds"/>
-                <NavbarButton className="navButtons navbar-text px-3" id = "wgNavButton" page = "Web && Game Dev" to="/wgd"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "vcNavButton" page = "Version Control" to="/vc"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "3dpNavButton" page = "3D Printing" to="/3dp"/>
+                <NavbarButton className="navButtons navbar-text px-3" id = "aieNavButton" page = "AI Ethics" to="/aie"/>
+                <NavbarButton className="navButtons navbar-text px-3 me-lg-5" id = "wgNavButton" page = "Web && Game Dev" to="/wgd"/>
             </div>
         </nav>
     );
